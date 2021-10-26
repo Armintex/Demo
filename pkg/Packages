@@ -1,0 +1,40 @@
+﻿Architecture: windows_x64
+CompatibilityVersion: 200702
+Depends: ni-labview-2019-runtime-engine
+Description: Generated Power
+DisplayName: Genarated Power
+Filename: generated-power_1.0.0-11_windows_x64.nipkg
+Installed-Size: 735
+MD5sum: ed1bdba037776835859c2ba982118ebb
+Maintainer: National Instruments <>
+Package: generated-power
+Plugin: file
+Priority: standard
+Recommends: ni-certificates
+ReleaseNotes: 
+  This Package is built for the demo purpose
+Section: Application Software
+Size: 697196
+UserVisible: yes
+Version: 1.0.0-11
+
+Architecture: windows_x64
+CompatibilityVersion: 200702
+Depends: ni-labview-2019-runtime-engine
+Description: Power Statistics
+  Displays generated power statistics per country
+DisplayName: Power Statistics
+Filename: power-statistics_1.0.0-4_windows_x64.nipkg
+Homepage: www.ni.com
+Installed-Size: 3018
+MD5sum: ee07f31ff37b9755fd0962204769459d
+Maintainer: National Instruments Application Engineering <>
+Package: power-statistics
+Plugin: file
+Priority: standard
+Recommends: ni-certificates
+Section: Application Software
+Size: 2657022
+UserVisible: yes
+Version: 1.0.0-4
+
