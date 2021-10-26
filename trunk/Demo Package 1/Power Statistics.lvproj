@@ -1,5 +1,5 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Project Type="Project" LVVersion="19008000">
+<Project Type="Project" LVVersion="20008000">
 	<Property Name="varPersistentID:{00CBB8DC-26C5-45EC-BD75-60B417BE357D}" Type="Ref">/My Computer/Local_Variables.lvlib/Selected_cities</Property>
 	<Property Name="varPersistentID:{9453CDDD-0928-4009-A4FF-41C3359CCD0B}" Type="Ref">/My Computer/Local_Variables.lvlib/exit</Property>
 	<Property Name="varPersistentID:{CF8B17F7-156F-4F08-A4CD-58035A778813}" Type="Ref">/My Computer/Local_Variables.lvlib/docked</Property>
@@ -51,7 +51,6 @@
 				<Item Name="Close File+.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Close File+.vi"/>
 				<Item Name="compatReadText.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/compatReadText.vi"/>
 				<Item Name="Dynamic To Waveform Array.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/transition.llb/Dynamic To Waveform Array.vi"/>
-				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
 				<Item Name="ex_CorrectErrorChain.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/ex_CorrectErrorChain.vi"/>
 				<Item Name="Find First Error.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Find First Error.vi"/>
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
@@ -97,6 +96,7 @@
 				<Property Name="App_INI_aliasGUID" Type="Str">{43BCFBB0-15FA-4D06-80C9-570392BA22CD}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{388B3524-E271-4EE1-B43E-A00CC90F927D}</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="App_serverType" Type="Int">1</Property>
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{EACBCB2E-D970-4CA4-AE0A-D5A622DA4DC1}</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">Power Statistics</Property>
@@ -107,7 +107,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{262825A9-5F01-4B63-B147-CAE33584118D}</Property>
-				<Property Name="Bld_version.build" Type="Int">10</Property>
+				<Property Name="Bld_version.build" Type="Int">11</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Power Statistics.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME.exe</Property>
@@ -146,6 +146,8 @@
 			</Item>
 			<Item Name="PowerStatistics" Type="{E661DAE2-7517-431F-AC41-30807A3BDA38}">
 				<Property Name="NIPKG_addToFeed" Type="Bool">false</Property>
+				<Property Name="NIPKG_allDependenciesToFeed" Type="Bool">false</Property>
+				<Property Name="NIPKG_allDependenciesToSystemLink" Type="Bool">false</Property>
 				<Property Name="NIPKG_certificates" Type="Bool">true</Property>
 				<Property Name="NIPKG_createInstaller" Type="Bool">false</Property>
 				<Property Name="NIPKG_feedLocation" Type="Path">../builds/NI_AB_PROJECTNAME/PowerStatistics/Feed</Property>
@@ -154,24 +156,25 @@
 				<Property Name="NIPKG_installerBuiltBefore" Type="Bool">false</Property>
 				<Property Name="NIPKG_installerDestination" Type="Path">../builds/NI_AB_PROJECTNAME/PowerStatistics/Package Installer</Property>
 				<Property Name="NIPKG_installerDestination.Type" Type="Str">relativeToCommon</Property>
-				<Property Name="NIPKG_lastBuiltPackage" Type="Str">power-statistics_1.0.0-3_windows_all.nipkg</Property>
+				<Property Name="NIPKG_lastBuiltPackage" Type="Str">power-statistics_1.0.0-4_windows_all.nipkg</Property>
 				<Property Name="NIPKG_license" Type="Ref"></Property>
+				<Property Name="NIPKG_packageVersion" Type="Bool">false</Property>
 				<Property Name="NIPKG_releaseNotes" Type="Str"></Property>
 				<Property Name="NIPKG_storeProduct" Type="Bool">false</Property>
 				<Property Name="NIPKG_VisibleForRuntimeDeployment" Type="Bool">false</Property>
 				<Property Name="PKG_actions.Count" Type="Int">0</Property>
 				<Property Name="PKG_autoIncrementBuild" Type="Bool">true</Property>
 				<Property Name="PKG_autoSelectDeps" Type="Bool">true</Property>
-				<Property Name="PKG_buildNumber" Type="Int">4</Property>
+				<Property Name="PKG_buildNumber" Type="Int">5</Property>
 				<Property Name="PKG_buildSpecName" Type="Str">PowerStatistics</Property>
 				<Property Name="PKG_dependencies.Count" Type="Int">1</Property>
 				<Property Name="PKG_dependencies[0].Enhanced" Type="Bool">false</Property>
 				<Property Name="PKG_dependencies[0].MaxVersion" Type="Str"></Property>
 				<Property Name="PKG_dependencies[0].MaxVersionInclusive" Type="Bool">false</Property>
-				<Property Name="PKG_dependencies[0].MinVersion" Type="Str"></Property>
+				<Property Name="PKG_dependencies[0].MinVersion" Type="Str">20.0.0.49153-0+f1</Property>
 				<Property Name="PKG_dependencies[0].MinVersionType" Type="Str">Inclusive</Property>
 				<Property Name="PKG_dependencies[0].NIPKG.DisplayName" Type="Str">LabVIEW Runtime (32-bit)</Property>
-				<Property Name="PKG_dependencies[0].Package.Name" Type="Str">ni-labview-2019-runtime-engine-x86</Property>
+				<Property Name="PKG_dependencies[0].Package.Name" Type="Str">ni-labview-2020-runtime-engine-x86</Property>
 				<Property Name="PKG_dependencies[0].Package.Section" Type="Str">Programming Environments</Property>
 				<Property Name="PKG_dependencies[0].Package.Synopsis" Type="Str">The LabVIEW Runtime is a software add-on that enables engineers to run executables on a nondevelopment machine.</Property>
 				<Property Name="PKG_dependencies[0].Relationship" Type="Str">Required Dependency</Property>
@@ -188,10 +191,8 @@
 				<Property Name="PKG_feedName" Type="Str"></Property>
 				<Property Name="PKG_homepage" Type="Str">www.ni.com</Property>
 				<Property Name="PKG_hostname" Type="Str"></Property>
-				<Property Name="PKG_lvrteTracking" Type="Str">ni-labview-2019-runtime-engine-x86</Property>
 				<Property Name="PKG_maintainer" Type="Str">National Instruments Application Engineering &lt;&gt;</Property>
-				<Property Name="PKG_output" Type="Path">../package</Property>
-				<Property Name="PKG_output.Type" Type="Str">relativeToProject</Property>
+				<Property Name="PKG_output" Type="Path">/C/Users/BITS-2950/Documents/GitHub/Demo/export</Property>
 				<Property Name="PKG_packageName" Type="Str">power-statistics</Property>
 				<Property Name="PKG_publishToSystemLink" Type="Bool">false</Property>
 				<Property Name="PKG_section" Type="Str">Application Software</Property>
