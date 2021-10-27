@@ -1,8 +1,8 @@
 Architecture: windows_all
 Built-Using: nipkg
-Description: generated-power
+Description: mycompany-myproduct-1
 Maintainer: NIAE <armen.kirakosyan@ni.com>
-Package: generated-power
+Package: mycompany-myproduct-1
 Section: Application Software
 Version: 1.0.0.2
 XB-DisplayName: GeneratedPower
