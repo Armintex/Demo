@@ -53,13 +53,14 @@
             <Architecture>windows_all</Architecture>
             <AutoIncrementVersion>Build</AutoIncrementVersion>
             <BuildStatus z:Id="i11">
-                <FileName />
-                <Version>none</Version>
+                <BuildEverSuccessful>true</BuildEverSuccessful>
+                <FileName>power-statistics_1.0.0.6_windows_all.nipkg</FileName>
+                <Version>1.0.0.6</Version>
             </BuildStatus>
             <CompanyName>MyCompany</CompanyName>
             <CustomExecutes />
             <DisplayName>PowerStatistics</DisplayName>
-            <FileName>power-statistics_1.0.0.6_windows_all.nipkg</FileName>
+            <FileName>power-statistics_1.0.0.7_windows_all.nipkg</FileName>
             <MaintainerEmail>armen.kirakosyan@ni.com</MaintainerEmail>
             <MaintainerName>NIAE</MaintainerName>
             <Messages xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
@@ -68,7 +69,7 @@
             <ProductName>MyProduct</ProductName>
             <Section>Application Software</Section>
             <Synopsis>power-statistics</Synopsis>
-            <Version>1.0.0.6</Version>
+            <Version>1.0.0.7</Version>
         </Distribution>
         <Distribution z:Id="i12" i:type="Package">
             <DistributionItems>
@@ -101,13 +102,14 @@
             <Architecture>windows_all</Architecture>
             <AutoIncrementVersion>Build</AutoIncrementVersion>
             <BuildStatus z:Id="i18">
-                <FileName />
-                <Version>none</Version>
+                <BuildEverSuccessful>true</BuildEverSuccessful>
+                <FileName>mycompany-myproduct-1_1.0.0.0_windows_all.nipkg</FileName>
+                <Version>1.0.0.0</Version>
             </BuildStatus>
             <CompanyName>MyCompany</CompanyName>
             <CustomExecutes />
             <DisplayName>GeneratedPower</DisplayName>
-            <FileName>mycompany-myproduct-1_1.0.0.0_windows_all.nipkg</FileName>
+            <FileName>mycompany-myproduct-1_1.0.0.1_windows_all.nipkg</FileName>
             <MaintainerEmail>armen.kirakosyan@ni.com</MaintainerEmail>
             <MaintainerName>NIAE</MaintainerName>
             <Messages xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
@@ -116,7 +118,7 @@
             <ProductName>MyProduct-1</ProductName>
             <Section>Application Software</Section>
             <Synopsis>mycompany-myproduct-1</Synopsis>
-            <Version>1.0.0.0</Version>
+            <Version>1.0.0.1</Version>
         </Distribution>
     </Distributions>
     <Feeds />
