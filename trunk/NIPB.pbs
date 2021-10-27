@@ -1,0 +1,137 @@
+﻿<Solution xmlns:i="http://www.w3.org/2001/XMLSchema-instance" z:Id="i1" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/" xmlns="http://schemas.datacontract.org/2004/07/NationalInstruments.PackageBuilder.Engine">
+    <Name>NIPB</Name>
+    <SourceItems>
+        <SourceItem z:Id="i2">
+            <PluginConfigurationOptions />
+            <RelativePath>..\..\Demo Package 2\GeneratedPower.exe</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i3">
+            <PluginConfigurationOptions />
+            <RelativePath>..\builds\Power Statistics.exe</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+    </SourceItems>
+    <InputSourceItems>
+        <SourceItem z:Ref="i3" />
+        <SourceItem z:Ref="i2" />
+    </InputSourceItems>
+    <Distributions>
+        <Distribution z:Id="i4" i:type="Package">
+            <DistributionItems>
+                <DistributionItem z:Id="i5" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[Documents]\Power Statistics.exe</DestinationRelativePath>
+                    <Name>Power Statistics.exe</Name>
+                    <SourceItem z:Ref="i3" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>true</ProcessDuringStaging>
+                </DistributionItem>
+            </DistributionItems>
+            <Name>PowerStatistics</Name>
+            <OutputDirectory>..\..\..\export</OutputDirectory>
+            <PluginConfigurationOptions>
+                <ConfigurationOption z:Id="i6">
+                    <Definition z:Id="i7">
+                        <Description>Publish LabVIEW NXG projects as examples or templates.</Description>
+                        <Name>Publish examples to LabVIEW NXG</Name>
+                    </Definition>
+                    <HasDefaultValues>true</HasDefaultValues>
+                    <Value z:Id="i8" i:type="DialogConfigurationOptionValue">
+                        <Values>
+                            <ConfigurationOptionValue z:Id="i9" xmlns:d8p1="http://schemas.datacontract.org/2004/07/NationalInstruments.PackageBuilder.Plugins.LabVIEWNXG" i:type="d8p1:LauncherContentConfigurationOptionValue">
+                                <d8p1:Value z:Id="i10" i:type="d8p1:LauncherRoot">
+                                    <d8p1:Children />
+                                </d8p1:Value>
+                            </ConfigurationOptionValue>
+                        </Values>
+                    </Value>
+                </ConfigurationOption>
+            </PluginConfigurationOptions>
+            <PrebuildAnalysisEnabled>true</PrebuildAnalysisEnabled>
+            <Architecture>windows_all</Architecture>
+            <AutoIncrementVersion>Build</AutoIncrementVersion>
+            <BuildStatus z:Id="i11">
+                <BuildEverSuccessful>true</BuildEverSuccessful>
+                <FileName>power-statistics_1.0.0.5_windows_all.nipkg</FileName>
+                <Version>1.0.0.5</Version>
+            </BuildStatus>
+            <CompanyName>MyCompany</CompanyName>
+            <CustomExecutes />
+            <DisplayName>PowerStatistics</DisplayName>
+            <FileName>power-statistics_1.0.0.6_windows_all.nipkg</FileName>
+            <MaintainerEmail>armen.kirakosyan@ni.com</MaintainerEmail>
+            <MaintainerName>NIAE</MaintainerName>
+            <Messages xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+            <PackageName>power-statistics</PackageName>
+            <PackageRelationships />
+            <ProductName>MyProduct</ProductName>
+            <Section>Application Software</Section>
+            <Synopsis>power-statistics</Synopsis>
+            <Version>1.0.0.6</Version>
+        </Distribution>
+        <Distribution z:Id="i12" i:type="Package">
+            <DistributionItems>
+                <DistributionItem z:Id="i13" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[Documents]\GeneratedPower.exe</DestinationRelativePath>
+                    <Name>GeneratedPower.exe</Name>
+                    <SourceItem z:Ref="i2" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>true</ProcessDuringStaging>
+                </DistributionItem>
+            </DistributionItems>
+            <Name>GeneratedPower</Name>
+            <OutputDirectory>Packages</OutputDirectory>
+            <PluginConfigurationOptions>
+                <ConfigurationOption z:Id="i14">
+                    <Definition z:Ref="i7" />
+                    <HasDefaultValues>true</HasDefaultValues>
+                    <Value z:Id="i15" i:type="DialogConfigurationOptionValue">
+                        <Values>
+                            <ConfigurationOptionValue z:Id="i16" xmlns:d8p1="http://schemas.datacontract.org/2004/07/NationalInstruments.PackageBuilder.Plugins.LabVIEWNXG" i:type="d8p1:LauncherContentConfigurationOptionValue">
+                                <d8p1:Value z:Id="i17" i:type="d8p1:LauncherRoot">
+                                    <d8p1:Children />
+                                </d8p1:Value>
+                            </ConfigurationOptionValue>
+                        </Values>
+                    </Value>
+                </ConfigurationOption>
+            </PluginConfigurationOptions>
+            <PrebuildAnalysisEnabled>true</PrebuildAnalysisEnabled>
+            <Architecture>windows_all</Architecture>
+            <AutoIncrementVersion>Build</AutoIncrementVersion>
+            <BuildStatus z:Id="i18">
+                <FileName />
+                <Version>none</Version>
+            </BuildStatus>
+            <CompanyName>MyCompany</CompanyName>
+            <CustomExecutes />
+            <DisplayName>GeneratedPower</DisplayName>
+            <FileName>mycompany-myproduct-1_1.0.0.0_windows_all.nipkg</FileName>
+            <MaintainerEmail>armen.kirakosyan@ni.com</MaintainerEmail>
+            <MaintainerName>NIAE</MaintainerName>
+            <Messages xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+            <PackageName>mycompany-myproduct-1</PackageName>
+            <PackageRelationships />
+            <ProductName>MyProduct-1</ProductName>
+            <Section>Application Software</Section>
+            <Synopsis>mycompany-myproduct-1</Synopsis>
+            <Version>1.0.0.0</Version>
+        </Distribution>
+    </Distributions>
+    <Feeds />
+    <DistributionGroups>
+        <DistributionGroup z:Id="i19">
+            <Distributions>
+                <Distribution z:Ref="i4" />
+                <Distribution z:Ref="i12" />
+            </Distributions>
+            <Name>Distribution Group</Name>
+            <PrebuildAnalysisEnabled>true</PrebuildAnalysisEnabled>
+            <StageDirectory>ProcessingStage</StageDirectory>
+        </DistributionGroup>
+    </DistributionGroups>
+    <TestStandMode>true</TestStandMode>
+    <PluginConfigurationOptions />
+</Solution>

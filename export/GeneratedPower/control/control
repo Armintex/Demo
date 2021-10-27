@@ -1,0 +1,12 @@
+Architecture: windows_all
+Built-Using: nipkg
+Description: generated-power
+Maintainer: NIAE <armen.kirakosyan@ni.com>
+Package: generated-power
+Section: Application Software
+Version: 1.0.0.2
+XB-DisplayName: GeneratedPower
+XB-Plugin: file
+XB-StoreProduct: no
+XB-UserVisible: yes
+XB-VisibleForRuntimeDeployment: no

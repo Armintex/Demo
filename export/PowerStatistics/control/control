@@ -1,0 +1,12 @@
+Architecture: windows_all
+Built-Using: nipkg
+Description: power-statistics
+Maintainer: NIAE <armen.kirakosyan@ni.com>
+Package: power-statistics
+Section: Application Software
+Version: 1.0.0.8
+XB-DisplayName: PowerStatistics
+XB-Plugin: file
+XB-StoreProduct: no
+XB-UserVisible: yes
+XB-VisibleForRuntimeDeployment: no
