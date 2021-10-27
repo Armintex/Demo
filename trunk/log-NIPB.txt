@@ -1,37 +1,29 @@
-[5:08:39.03 PM] Solution log file opened: C:\Users\BITS-2950\Documents\GitHub\Demo\trunk\log-NIPB.txt
-[5:08:39.03 PM] System summary
-   Date               10/27/2021 17:08:39
+[6:18:36.32 PM] Solution log file opened: C:\Users\BITS-2950\Documents\GitHub\Demo\trunk\log-NIPB.txt
+[6:18:36.32 PM] System summary
+   Date               10/27/2021 18:18:36
    NIPB version       20.1.0.1011
    NIPB bitness       64-bit
    NIPM version       21.3.0.49255
    Operating System   Windows 10  64-bit
-[5:08:39.04 PM] ======= Build Packages: Started =======
-[5:08:39.07 PM] PowerStatistics: Discover started.
-[5:08:39.07 PM] GeneratedPower: Discover started.
-[5:08:39.15 PM] PowerStatistics: Discover successful
-[5:08:39.15 PM] GeneratedPower: Discover successful
-[5:08:39.17 PM] PowerStatistics: Analyze started.
-[5:08:39.17 PM] GeneratedPower: Analyze started.
-[5:08:39.22 PM] PowerStatistics: Analyze successful.
-[5:08:39.22 PM] GeneratedPower: Analyze successful.
-[5:08:39.23 PM] PowerStatistics: Clean started.
-[5:08:39.23 PM] GeneratedPower: Clean started.
-[5:08:39.26 PM] GeneratedPower: Clean successful.
-[5:08:39.26 PM] PowerStatistics: Clean successful.
-[5:08:39.27 PM] PowerStatistics: Build Packages started.
-[5:08:39.27 PM] GeneratedPower: Build Packages started.
-[5:08:39.93 PM] PowerStatistics: Build Packages successful.
-[5:08:40.15 PM] GeneratedPower: Build Packages successful.
-[5:08:40.18 PM] ======= Build Packages: Summary =======
-[5:08:40.19 PM] 1) Package 'PowerStatistics' Build detailed summary
-   PowerStatistics    Succeeded
-   Output directory   C:\Users\BITS-2950\Documents\GitHub\Demo\export
-   Filename           power-statistics_1.0.0.10_windows_all.nipkg
-   Stage directory    C:\Users\BITS-2950\Documents\GitHub\Demo\export\PowerStatistics
-   Package version    1.0.0.10
-   Display version    
-   Architecture       windows_all
-[5:08:40.19 PM] 2) Package 'GeneratedPower' Build detailed summary
+[6:18:36.34 PM] ======= Build Packages: Started =======
+[6:18:36.35 PM] PowerStatistics: Discover started.
+[6:18:36.35 PM] GeneratedPower: Discover started.
+[6:18:36.43 PM] PowerStatistics: Discover successful
+[6:18:36.43 PM] GeneratedPower: Discover successful
+[6:18:36.44 PM] PowerStatistics: Analyze started.
+[6:18:36.44 PM] GeneratedPower: Analyze started.
+[6:18:36.50 PM] GeneratedPower: Analyze successful.
+[6:18:36.50 PM] PowerStatistics: Analyze successful.
+[6:18:36.50 PM] PowerStatistics: Clean started.
+[6:18:36.50 PM] GeneratedPower: Clean started.
+[6:18:36.54 PM] GeneratedPower: Clean successful.
+[6:18:36.54 PM] PowerStatistics: Clean successful.
+[6:18:36.54 PM] PowerStatistics: Build Packages started.
+[6:18:36.54 PM] GeneratedPower: Build Packages started.
+[6:18:37.32 PM] GeneratedPower: Build Packages successful.
+[6:18:37.65 PM] PowerStatistics: Build Packages successful.
+[6:18:37.67 PM] ======= Build Packages: Summary =======
+[6:18:37.67 PM] 1) Package 'GeneratedPower' Build detailed summary
    GeneratedPower     Succeeded
    Output directory   C:\Users\BITS-2950\Documents\GitHub\Demo\export
    Filename           generated-power_1.0.0.4_windows_all.nipkg
@@ -39,5 +31,13 @@
    Package version    1.0.0.4
    Display version    
    Architecture       windows_all
-[5:08:40.19 PM] ======= Build Packages: 2 Succeeded, 0 Failed, 0 Canceled (elapsed time 00:01.14) =======
-[5:08:40.19 PM] Solution log file closed: C:\Users\BITS-2950\Documents\GitHub\Demo\trunk\log-NIPB.txt
+[6:18:37.67 PM] 2) Package 'PowerStatistics' Build detailed summary
+   PowerStatistics    Succeeded
+   Output directory   C:\Users\BITS-2950\Documents\GitHub\Demo\export
+   Filename           power-statistics_1.0.0.10_windows_all.nipkg
+   Stage directory    C:\Users\BITS-2950\Documents\GitHub\Demo\export\PowerStatistics
+   Package version    1.0.0.10
+   Display version    
+   Architecture       windows_all
+[6:18:37.67 PM] ======= Build Packages: 2 Succeeded, 0 Failed, 0 Canceled (elapsed time 00:01.33) =======
+[6:18:37.67 PM] Solution log file closed: C:\Users\BITS-2950\Documents\GitHub\Demo\trunk\log-NIPB.txt
