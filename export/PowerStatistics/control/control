@@ -4,7 +4,7 @@ Description: power-statistics
 Maintainer: NIAE <armen.kirakosyan@ni.com>
 Package: power-statistics
 Section: Application Software
-Version: 1.0.0.9
+Version: 1.0.0.10
 XB-DisplayName: PowerStatistics
 XB-Plugin: file
 XB-StoreProduct: no

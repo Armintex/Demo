@@ -4,7 +4,7 @@ Description: generated-power
 Maintainer: NIAE <armen.kirakosyan@ni.com>
 Package: generated-power
 Section: Application Software
-Version: 1.0.0.3
+Version: 1.0.0.4
 XB-DisplayName: GeneratedPower
 XB-Plugin: file
 XB-StoreProduct: no

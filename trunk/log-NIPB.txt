@@ -1,0 +1,44 @@
+[4:41:33.94 PM] Solution log file opened: C:\Users\BITS-2950\Documents\GitHub\Demo\trunk\log-NIPB.txt
+[4:41:33.94 PM] System summary
+   Date               10/27/2021 16:41:33
+   NIPB version       20.1.0.1011
+   NIPB bitness       64-bit
+   NIPM version       21.3.0.49255
+   Operating System   Windows 10  64-bit
+[4:41:33.95 PM] ======= Build Packages: Started =======
+[4:41:33.97 PM] PowerStatistics: Discover started.
+[4:41:33.97 PM] GeneratedPower: Discover started.
+[4:41:34.05 PM] PowerStatistics: Discover successful
+[4:41:34.05 PM] GeneratedPower: Discover successful
+[4:41:34.06 PM] PowerStatistics: Analyze started.
+[4:41:34.06 PM] GeneratedPower: Analyze started.
+[4:41:34.11 PM] PowerStatistics: Analyze successful.
+[4:41:34.11 PM] PowerStatistics: Analyze successful.
+[4:41:34.11 PM] GeneratedPower: Analyze successful.
+[4:41:34.12 PM] PowerStatistics: Clean started.
+[4:41:34.12 PM] GeneratedPower: Clean started.
+[4:41:34.15 PM] GeneratedPower: Clean successful.
+[4:41:34.15 PM] PowerStatistics: Clean successful.
+[4:41:34.15 PM] PowerStatistics: Build Packages started.
+[4:41:34.15 PM] GeneratedPower: Build Packages started.
+[4:41:34.79 PM] PowerStatistics: Build Packages successful.
+[4:41:34.96 PM] GeneratedPower: Build Packages successful.
+[4:41:34.98 PM] ======= Build Packages: Summary =======
+[4:41:34.98 PM] 1) Package 'PowerStatistics' Build detailed summary
+   PowerStatistics    Succeeded
+   Output directory   C:\Users\BITS-2950\Documents\GitHub\Demo\export
+   Filename           power-statistics_1.0.0.10_windows_all.nipkg
+   Stage directory    C:\Users\BITS-2950\Documents\GitHub\Demo\export\PowerStatistics
+   Package version    1.0.0.10
+   Display version    
+   Architecture       windows_all
+[4:41:34.98 PM] 2) Package 'GeneratedPower' Build detailed summary
+   GeneratedPower     Succeeded
+   Output directory   C:\Users\BITS-2950\Documents\GitHub\Demo\export
+   Filename           generated-power_1.0.0.4_windows_all.nipkg
+   Stage directory    C:\Users\BITS-2950\Documents\GitHub\Demo\export\GeneratedPower
+   Package version    1.0.0.4
+   Display version    
+   Architecture       windows_all
+[4:41:34.98 PM] ======= Build Packages: 2 Succeeded, 0 Failed, 0 Canceled (elapsed time 00:01.03) =======
+[4:41:34.98 PM] Solution log file closed: C:\Users\BITS-2950\Documents\GitHub\Demo\trunk\log-NIPB.txt
