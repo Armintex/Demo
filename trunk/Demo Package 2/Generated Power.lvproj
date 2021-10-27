@@ -47,13 +47,12 @@
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Generated Power" Type="{E661DAE2-7517-431F-AC41-30807A3BDA38}">
-				<Property Name="NIPKG_addToFeed" Type="Bool">false</Property>
+				<Property Name="NIPKG_addToFeed" Type="Bool">true</Property>
 				<Property Name="NIPKG_allDependenciesToFeed" Type="Bool">false</Property>
 				<Property Name="NIPKG_allDependenciesToSystemLink" Type="Bool">false</Property>
 				<Property Name="NIPKG_certificates" Type="Bool">true</Property>
 				<Property Name="NIPKG_createInstaller" Type="Bool">false</Property>
-				<Property Name="NIPKG_feedLocation" Type="Path">../feed</Property>
-				<Property Name="NIPKG_feedLocation.Type" Type="Str">relativeToProject</Property>
+				<Property Name="NIPKG_feedLocation" Type="Path">/C/Users/BITS-2950/Documents/GitHub/Demo/export</Property>
 				<Property Name="NIPKG_installerArtifacts" Type="Str"></Property>
 				<Property Name="NIPKG_installerBuiltBefore" Type="Bool">false</Property>
 				<Property Name="NIPKG_installerDestination" Type="Path">../builds/NI_AB_PROJECTNAME/Generated Power/Package Installer</Property>
