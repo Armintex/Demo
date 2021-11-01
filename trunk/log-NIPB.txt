@@ -1,29 +1,30 @@
-[4:06:06.00 PM] Solution log file opened: C:\Users\BITS-2950\Documents\GitHub\Demo\trunk\log-NIPB.txt
-[4:06:06.00 PM] System summary
-   Date               10/28/2021 16:06:06
+[3:37:54.02 PM] Solution log file opened: C:\Users\BITS-2950\Documents\GitHub\Demo\trunk\log-NIPB.txt
+[3:37:54.02 PM] System summary
+   Date               11/01/2021 15:37:54
    NIPB version       20.1.0.1011
    NIPB bitness       64-bit
    NIPM version       21.3.0.49255
    Operating System   Windows 10  64-bit
-[4:06:06.02 PM] ======= Build Packages: Started =======
-[4:06:06.05 PM] PowerStatistics: Discover started.
-[4:06:06.05 PM] GeneratedPower: Discover started.
-[4:06:06.15 PM] PowerStatistics: Discover successful
-[4:06:06.15 PM] GeneratedPower: Discover successful
-[4:06:06.16 PM] PowerStatistics: Analyze started.
-[4:06:06.16 PM] GeneratedPower: Analyze started.
-[4:06:06.22 PM] PowerStatistics: Analyze successful.
-[4:06:06.22 PM] GeneratedPower: Analyze successful.
-[4:06:06.22 PM] PowerStatistics: Clean started.
-[4:06:06.22 PM] GeneratedPower: Clean started.
-[4:06:06.26 PM] PowerStatistics: Clean successful.
-[4:06:06.26 PM] GeneratedPower: Clean successful.
-[4:06:06.26 PM] PowerStatistics: Build Packages started.
-[4:06:06.27 PM] GeneratedPower: Build Packages started.
-[4:06:07.05 PM] PowerStatistics: Build Packages successful.
-[4:06:07.24 PM] GeneratedPower: Build Packages successful.
-[4:06:07.26 PM] ======= Build Packages: Summary =======
-[4:06:07.26 PM] 1) Package 'PowerStatistics' Build detailed summary
+[3:37:54.04 PM] ======= Build Packages: Started =======
+[3:37:54.06 PM] PowerStatistics: Discover started.
+[3:37:54.06 PM] GeneratedPower: Discover started.
+[3:37:54.20 PM] PowerStatistics: Discover successful
+[3:37:54.20 PM] GeneratedPower: Discover successful
+[3:37:54.22 PM] PowerStatistics: Analyze started.
+[3:37:54.22 PM] GeneratedPower: Analyze started.
+[3:37:54.30 PM] PowerStatistics: Analyze successful.
+[3:37:54.30 PM] PowerStatistics: Analyze successful.
+[3:37:54.30 PM] GeneratedPower: Analyze successful.
+[3:37:54.31 PM] PowerStatistics: Clean started.
+[3:37:54.31 PM] GeneratedPower: Clean started.
+[3:37:54.36 PM] GeneratedPower: Clean successful.
+[3:37:54.37 PM] PowerStatistics: Clean successful.
+[3:37:54.37 PM] PowerStatistics: Build Packages started.
+[3:37:54.37 PM] GeneratedPower: Build Packages started.
+[3:37:56.32 PM] PowerStatistics: Build Packages successful.
+[3:37:56.55 PM] GeneratedPower: Build Packages successful.
+[3:37:56.60 PM] ======= Build Packages: Summary =======
+[3:37:56.60 PM] 1) Package 'PowerStatistics' Build detailed summary
    PowerStatistics    Succeeded
    Output directory   C:\Users\BITS-2950\Documents\GitHub\Demo\export
    Filename           power-statistics_1.0.0.10_windows_all.nipkg
@@ -31,7 +32,7 @@
    Package version    1.0.0.10
    Display version    
    Architecture       windows_all
-[4:06:07.26 PM] 2) Package 'GeneratedPower' Build detailed summary
+[3:37:56.60 PM] 2) Package 'GeneratedPower' Build detailed summary
    GeneratedPower     Succeeded
    Output directory   C:\Users\BITS-2950\Documents\GitHub\Demo\export
    Filename           generated-power_1.0.0.4_windows_all.nipkg
@@ -39,5 +40,5 @@
    Package version    1.0.0.4
    Display version    
    Architecture       windows_all
-[4:06:07.26 PM] ======= Build Packages: 2 Succeeded, 0 Failed, 0 Canceled (elapsed time 00:01.24) =======
-[4:06:07.26 PM] Solution log file closed: C:\Users\BITS-2950\Documents\GitHub\Demo\trunk\log-NIPB.txt
+[3:37:56.61 PM] ======= Build Packages: 2 Succeeded, 0 Failed, 0 Canceled (elapsed time 00:02.55) =======
+[3:37:56.62 PM] Solution log file closed: C:\Users\BITS-2950\Documents\GitHub\Demo\trunk\log-NIPB.txt
