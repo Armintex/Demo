@@ -107,7 +107,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{262825A9-5F01-4B63-B147-CAE33584118D}</Property>
-				<Property Name="Bld_version.build" Type="Int">12</Property>
+				<Property Name="Bld_version.build" Type="Int">13</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Power Statistics.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME.exe</Property>
